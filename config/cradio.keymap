@@ -156,6 +156,12 @@
 			layers = <1>;
             bindings = <&kp LC(Z)>;
         };  
+		combo_alttab {
+            timeout-ms = <30>;
+            key-positions = <10 12>;
+			layers = <1>;
+            bindings = <&kp LG(TAB)>;
+        };  
    
     };
 	
