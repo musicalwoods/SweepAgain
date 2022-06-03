@@ -166,13 +166,13 @@
             timeout-ms = <30>;
             key-positions = <11 13>;
 			layers = <1>;
-            bindings = <&kp LG(TAB)>;
+            bindings = <&kp LC(TAB)>;
         };  
-		combo_ctrltab {
+		combo_ctrlshifttab {
             timeout-ms = <30>;
             key-positions = <1 3>;
 			layers = <1>;
-            bindings = <&kp LG(TAB)>;
+            bindings = <&kp LC(LS(TAB))>;
         };  
    
     };
