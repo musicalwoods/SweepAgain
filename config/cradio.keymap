@@ -71,7 +71,7 @@
         };      
         
         combo_sl2 {
-            timeout-ms = <80>;
+            timeout-ms = <100>;
             key-positions = <30 33>;
             bindings = <&sl 2>;
         };  
