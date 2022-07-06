@@ -20,51 +20,51 @@
     combos {
         compatible = "zmk,combos";
         combo_kapp {
-            timeout-ms = <30>;
+            timeout-ms = <50>;
             key-positions = <30 10>;
             bindings = <&kp K_APP>;
         };    
         combo_lgui {
-            timeout-ms = <30>;
+            timeout-ms = <50>;
             key-positions = <30 11>;
             bindings = <&sk LGUI>;
         };     
         combo_lalt {
-            timeout-ms = <30>;
+            timeout-ms = <50>;
             key-positions = <30 12>;
             bindings = <&sk LALT>;
         };     
         combo_lctl {
-            timeout-ms = <30>;
+            timeout-ms = <50>;
             key-positions = <30 13>;
             bindings = <&sk LCTL>;
         };    
         combo_lctlT {
-            timeout-ms = <30>;
+            timeout-ms = <50>;
             key-positions = <30 12 13>;
             layers = <0>;
             bindings = <&kp LC(T)>;
         };    
         combo_lctlsftT {
-            timeout-ms = <30>;
+            timeout-ms = <50>;
             key-positions = <31 12 13>;
             layers = <0>;
             bindings = <&kp LC(LS(T))>;
         };    
         combo_L1 {
-            timeout-ms = <30>;
+            timeout-ms = <50>;
             key-positions = <30 23>;
             layers = <0>;
             bindings = <&to 1>;
         };    
         combo_L2 {
-            timeout-ms = <30>;
+            timeout-ms = <50>;
             key-positions = <30 23>;
             layers = <1>;
             bindings = <&to 2>;
         };          
         combo_L3 {
-            timeout-ms = <30>;
+            timeout-ms = <50>;
             key-positions = <30 23>;
             layers = <2>;
             bindings = <&to 3>;
@@ -72,104 +72,104 @@
         
         combo_sl2 {
             timeout-ms = <100>;
-            key-positions = <30 33>;
+            key-positions = <50 33>;
             bindings = <&sl 2>;
         };  
         
         combo_rctl {
-            timeout-ms = <30>;
+            timeout-ms = <50>;
             key-positions = <33 16>;
             bindings = <&sk RCTL>;
         };       
         combo_ralt {
-            timeout-ms = <30>;
+            timeout-ms = <50>;
             key-positions = <33 17>;
             bindings = <&sk RALT>;
         };       
         combo_rgui {
-            timeout-ms = <30>;
+            timeout-ms = <50>;
             key-positions = <33 18>;
             bindings = <&sk RGUI>;
         };    
         combo_rsl2 {
-            timeout-ms = <30>;
+            timeout-ms = <50>;
             key-positions = <33 19>;
             bindings = <&sl 2>;
         };          
         combo_rL1 {
-            timeout-ms = <30>;
+            timeout-ms = <50>;
             key-positions = <33 26>;
             layers = <0>;
             bindings = <&to 1>;
         };   
         combo_rL2 {
-            timeout-ms = <30>;
+            timeout-ms = <50>;
             key-positions = <33 26>;
             layers = <1>;
             bindings = <&to 2>;
         };  
         combo_rL3 {
-            timeout-ms = <30>;
+            timeout-ms = <50>;
             key-positions = <33 26>;
             layers = <2>;
             bindings = <&to 3>;
         };  
         combo_semicolon {
-            timeout-ms = <30>;
+            timeout-ms = <50>;
             key-positions = <8 9>;
             layers = <0>;
             bindings = <&kp SEMI>;
         };  
         combo_backslash {
-            timeout-ms = <30>;
+            timeout-ms = <50>;
             key-positions = <27 28>;
             layers = <0>;
             bindings = <&kp BSLH>;
         };  
         combo_F2 {
-            timeout-ms = <30>;
+            timeout-ms = <50>;
             key-positions = <1 2>;
             layers = <1>;
             bindings = <&kp F2>;
         };  
         combo_PGDN {
-            timeout-ms = <30>;
+            timeout-ms = <50>;
             key-positions = <12 13>;
             layers = <1>;
             bindings = <&kp PG_DN>;
         };  
         combo_PGUP {
-            timeout-ms = <30>;
+            timeout-ms = <50>;
             key-positions = <2 3>;
             layers = <1>;
             bindings = <&kp PG_UP>;
         };  
         combo_selectall {
-            timeout-ms = <30>;
+            timeout-ms = <50>;
             key-positions = <10 11>;
             layers = <1>;
             bindings = <&kp LC(A)>;
         };  
         combo_undo {
-            timeout-ms = <30>;
+            timeout-ms = <50>;
             key-positions = <20 21>;
             layers = <1>;
             bindings = <&kp LC(Z)>;
         };  
         combo_wintab {
-            timeout-ms = <30>;
+            timeout-ms = <50>;
             key-positions = <10 12>;
             layers = <1>;
             bindings = <&kp LG(TAB)>;
         };  
         combo_ctrltab {
-            timeout-ms = <30>;
+            timeout-ms = <50>;
             key-positions = <11 13>;
             layers = <1>;
             bindings = <&kp LC(TAB)>;
         };  
         combo_ctrlshifttab {
-            timeout-ms = <30>;
+            timeout-ms = <50>;
             key-positions = <1 3>;
             layers = <1>;
             bindings = <&kp LC(LS(TAB))>;
