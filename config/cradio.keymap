@@ -27,17 +27,17 @@
         combo_lgui {
             timeout-ms = <40>;
             key-positions = <31 11>;
-            bindings = <&sk LGUI>;
+            bindings = <&kp LGUI>;
         };     
         combo_lalt {
             timeout-ms = <40>;
             key-positions = <31 12>;
-            bindings = <&sk LALT>;
+            bindings = <&kp LALT>;
         };     
         combo_lctl {
             timeout-ms = <40>;
             key-positions = <31 13>;
-            bindings = <&sk LCTL>;
+            bindings = <&kp LCTL>;
         };    
         combo_lctlT {
             timeout-ms = <50>;
@@ -79,17 +79,17 @@
         combo_rctl {
             timeout-ms = <40>;
             key-positions = <32 16>;
-            bindings = <&sk RCTL>;
+            bindings = <&kp RCTL>;
         };       
         combo_ralt {
             timeout-ms = <40>;
             key-positions = <32 17>;
-            bindings = <&sk RALT>;
+            bindings = <&kp RALT>;
         };       
         combo_rgui {
             timeout-ms = <40>;
             key-positions = <32 18>;
-            bindings = <&sk RGUI>;
+            bindings = <&kp RGUI>;
         };    
         combo_rsl2 {
             timeout-ms = <40>;
