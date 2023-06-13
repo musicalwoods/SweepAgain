@@ -21,13 +21,13 @@
         compatible = "zmk,combos";
         combo_taskmgr {
             timeout-ms = <40>;
-            key-positions = <4 5 6>;
+            key-positions = <3 4 5>;
             bindings = <&kp LC(LA(ESC))>;
         };    
         combo_CAD {
             timeout-ms = <40>;
-            key-positions = <4 5 6 7>;
-            bindings = <&kp LC(LA(DEL))>;
+            key-positions = <3 4 5 6>;
+            bindings = <&kp LC(LS(DEL))>;
         };    
         combo_kapp {
             timeout-ms = <40>;
