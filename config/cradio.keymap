@@ -22,12 +22,12 @@
         combo_taskmgr {
             timeout-ms = <40>;
             key-positions = <3 4 5>;
-            bindings = <&kp LC(LA(ESC))>;
+            bindings = <&kp LC(LS(ESC))>;
         };    
         combo_CAD {
             timeout-ms = <40>;
             key-positions = <3 4 5 6>;
-            bindings = <&kp LC(LS(DEL))>;
+            bindings = <&kp LC(LA(DEL))>;
         };    
         combo_kapp {
             timeout-ms = <40>;
