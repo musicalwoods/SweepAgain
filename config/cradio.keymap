@@ -231,7 +231,7 @@
         bindings = <
         &kp EXCL    &kp AT     &kp HASH  &kp DLLR   &kp PRCNT    &kp BSPC   &kp AMPS   &kp STAR  &kp CARET &kp SEMI   
         &kp GRAVE   &kp PG_UP  &kp BSLH  &kp PG_DN  &kp RET      &kp RET    &kp LPAR   &kp RPAR  &kp LBRC  &kp RBRC 
-        &kp C_MUTE  &volDprev  &kp C_PP  &volUnext  &kp DEL      &kp DEL    &kp LT     &kp GT    &kp LBKT  &kp RBKT 
+        &kp C_MUTE  &volDprev  &kp C_PP  &volUnext  &kp DEL      &kp DEL    &kp LBKT   &kp RBKT  &kp LT    &kp GT  
                                          &trans     &to 0        &to 0      &trans    
         >;
         };  
