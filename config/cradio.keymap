@@ -170,7 +170,7 @@
             timeout-ms = <50>;
             key-positions = <10 12>;
             layers = <1>;
-            bindings = <&kp LG(TAB)>;
+            bindings = <&kp LA(TAB)>;
         };  
         combo_ctrltab {
             timeout-ms = <50>;
