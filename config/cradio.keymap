@@ -31,12 +31,12 @@
         };    
         combo_kapp {
             timeout-ms = <40>;
-            key-positions = <31 10>;
+            key-positions = <31 11>;
             bindings = <&kp K_APP>;
         };    
         combo_lgui {
             timeout-ms = <40>;
-            key-positions = <31 11>;
+            key-positions = <31 10>;
             bindings = <&kp LGUI>;
         };     
         combo_lalt {
@@ -98,12 +98,12 @@
         };       
         combo_rgui {
             timeout-ms = <40>;
-            key-positions = <32 18>;
+            key-positions = <32 19>;
             bindings = <&kp RGUI>;
         };    
         combo_rsl2 {
             timeout-ms = <40>;
-            key-positions = <32 19>;
+            key-positions = <32 18>;
             bindings = <&sl 2>;
         };          
         combo_rL1 {
