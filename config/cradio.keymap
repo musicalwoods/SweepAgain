@@ -48,7 +48,12 @@
             timeout-ms = <40>;
             key-positions = <31 13>;
             bindings = <&kp LCTL>;
-        };    
+        };     
+        combo_lctlAlt {
+            timeout-ms = <40>;
+            key-positions = <31 12 13>;
+            bindings = <&kp LA(LCTL)>;
+        };  
         combo_lctlT {
             timeout-ms = <50>;
             key-positions = <31 12 13>;
@@ -95,6 +100,11 @@
             timeout-ms = <40>;
             key-positions = <32 17>;
             bindings = <&kp RALT>;
+        };        
+        combo_rctrlAlt {
+            timeout-ms = <40>;
+            key-positions = <32 16 17>;
+            bindings = <&kp RC(RALT)>;
         };       
         combo_rgui {
             timeout-ms = <40>;
